@@ -5,5 +5,6 @@ a = []
 for i in range(n):
     a.append(m[(n-1)-i])
 
-print(a)
+for i in range(n):
+    print(a[i], end=" ")
 

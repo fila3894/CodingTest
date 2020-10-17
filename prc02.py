@@ -4,5 +4,7 @@ a=list(0 for i in range(23))
 
 for i in range(1,24):
     a[i-1]=m.count(str(i))
+
+#빈도수 출력
 for j in range(23):
     print(a[j],end=' ')
